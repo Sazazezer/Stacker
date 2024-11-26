@@ -1,0 +1,154 @@
+[gd_scene load_steps=2 format=3 uid="uid://611rf2ovvcwd"]
+
+[ext_resource type="Script" path="res://Grid.cs" id="1_x3l7e"]
+
+[node name="Grid" type="Node2D"]
+script = ExtResource("1_x3l7e")
+
+[node name="GridBack" type="Polygon2D" parent="."]
+color = Color(0.26996, 0.0936165, 0.538553, 1)
+polygon = PackedVector2Array(0, 0, 590, 0, 590, 590, 0, 590)
+
+[node name="Row" type="Node2D" parent="."]
+position = Vector2(0, 15)
+
+[node name="Polygon2D" type="Polygon2D" parent="Row"]
+position = Vector2(15, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D2" type="Polygon2D" parent="Row"]
+position = Vector2(130, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D3" type="Polygon2D" parent="Row"]
+position = Vector2(245, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D4" type="Polygon2D" parent="Row"]
+position = Vector2(360, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D5" type="Polygon2D" parent="Row"]
+position = Vector2(475, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Row2" type="Node2D" parent="."]
+position = Vector2(0, 130)
+
+[node name="Polygon2D" type="Polygon2D" parent="Row2"]
+position = Vector2(15, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D2" type="Polygon2D" parent="Row2"]
+position = Vector2(130, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D3" type="Polygon2D" parent="Row2"]
+position = Vector2(245, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D4" type="Polygon2D" parent="Row2"]
+position = Vector2(360, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D5" type="Polygon2D" parent="Row2"]
+position = Vector2(475, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Row3" type="Node2D" parent="."]
+position = Vector2(0, 245)
+
+[node name="Polygon2D" type="Polygon2D" parent="Row3"]
+position = Vector2(15, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D2" type="Polygon2D" parent="Row3"]
+position = Vector2(130, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D3" type="Polygon2D" parent="Row3"]
+position = Vector2(245, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D4" type="Polygon2D" parent="Row3"]
+position = Vector2(360, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D5" type="Polygon2D" parent="Row3"]
+position = Vector2(475, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Row4" type="Node2D" parent="."]
+position = Vector2(0, 360)
+
+[node name="Polygon2D" type="Polygon2D" parent="Row4"]
+position = Vector2(15, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D2" type="Polygon2D" parent="Row4"]
+position = Vector2(130, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D3" type="Polygon2D" parent="Row4"]
+position = Vector2(245, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D4" type="Polygon2D" parent="Row4"]
+position = Vector2(360, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D5" type="Polygon2D" parent="Row4"]
+position = Vector2(475, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Row5" type="Node2D" parent="."]
+position = Vector2(0, 475)
+
+[node name="Polygon2D" type="Polygon2D" parent="Row5"]
+position = Vector2(15, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D2" type="Polygon2D" parent="Row5"]
+position = Vector2(130, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D3" type="Polygon2D" parent="Row5"]
+position = Vector2(245, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D4" type="Polygon2D" parent="Row5"]
+position = Vector2(360, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="Polygon2D5" type="Polygon2D" parent="Row5"]
+position = Vector2(475, 0)
+color = Color(0.262318, 0.170892, 0.649303, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+
+[node name="SpeedTimer" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
